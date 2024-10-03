@@ -338,7 +338,7 @@ public class USStateGraph {
 
     public static void main(String[] args) {
         Graph usgraph = USStateGraph.buildUSMap();
-        State s2 = usgraph.getState("Virginia");
+        State s2 = usgraph.getState("California");
         State ny = usgraph.getState("Florida");
         System.out.println(
             Graph.pathToString(Graph.findPath(ny, s2))
