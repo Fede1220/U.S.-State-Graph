@@ -1,1 +1,1 @@
-# U.S.-State-Graph
+This program is a Java implementation of a graph that represents the 50 U.S. states. Each state is represented by a node, and edges are neighboring states. This program allows users to find the shortests possible route between two states utilizing Breadth-first search. 
